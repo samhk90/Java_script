@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tut_2</title>
+</head>
+<body>
+    <!-- DOM part 1 -->
+    <!-- innerHtml -->
+
+
+    
+    <h2 id="demo">Hi!!</h2>
+    <button onclick="change_text()">Change text</button>
+
+    <h3 id="demo2">Samee</h3>
+    <button onclick="name_1()">Change name</button><br>
+
+    <script>
+
+        const name_1=()=>{                                                                      //Arrow function (diff tye of representaion of function)
+            const a= document.getElementById("demo2");
+            a.innerHTML="Mohammed Samee";
+        }
+        function change_text(){
+            document.getElementById("demo").innerHTML="This is your bro sam....";
+        }
+    </script>
+</body>
+</html>

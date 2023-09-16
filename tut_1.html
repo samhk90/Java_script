@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="style.css" rel="stylesheet"> -->
+    </head>
+    <body>
+        <!-- function tut -->
+        <form action="">
+            <input type="number" id="num1" placeholder="num1">
+            <input type="number" id="num2" placeholder="num2">
+            <input type="submit" value="submit" onclick="add()">
+        </form>
+        <!-- ParseFloat is funtion that convert str in to float and you can check number using NaN(not a number function) -->
+
+
+        <script>
+
+            console.log("samee")
+            function add(){
+                var num1=parseFloat(document.getElementById("num1").value);
+                var num2=parseFloat(document.getElementById("num2").value);
+                let r=num1+num2;
+                document.write(r);
+            }
+
+        </script>
+    </body>
+</html>
